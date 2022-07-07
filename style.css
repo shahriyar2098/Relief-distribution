@@ -1,140 +1,142 @@
-body{
+body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
 }
 
-h1{
-    font-size:55px;
+h1 {
+    font-size: 55px;
 }
 
-h2{
-    font-size:40px;
+h2 {
+    font-size: 40px;
 }
 
-h3{
-    font-size:30px;
+h3 {
+    font-size: 30px;
 }
 
-#alignment{
+#alignment {
     background-image: url(images/cover.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
-    text-align :center;
-    color:black;
-    padding:16%;
-    margin-bottom:100px;
+    background-position: center;
+    text-align: center;
+    color: black;
+    padding: 16%;
+    margin-bottom: 100px;
 }
 
-.flexible{
+.flexible {
     display: flex;
 }
 
-.center{
+.center {
     text-align: center;
-    margin-left:40px;
-    margin-right:40px;
-    margin-bottom:200px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 150px;
 }
 
-.taka-align{
-    margin:40px;
-    width:20%;
-    background-color:rgb(252, 248, 248);
-    color:gray;
+.link-button {
+
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    background-color: tomato;
+    padding: 15px 25px;
+    border-radius: 5px;
 }
 
-#taka-color{
-    width:20%;
-    margin:40px;
+.taka-align {
+    margin: 40px;
+    width: 20%;
+    background-color: rgb(252, 248, 248);
+    color: gray;
+}
+
+#taka-color {
+    width: 20%;
+    margin: 40px;
     background-color: rgb(241, 212, 206);
-    color:gray;
+    color: gray;
     border: 3px solid tomato;
 }
 
-#bottom-line{
+#bottom-line {
     padding: 25px 0px;
-    margin-left:200px;
-    margin-right:200px;
-    margin-bottom:40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 40px;
     border: none;
     outline: none;
     border-bottom: 2px solid rgb(202, 192, 192);
 }
 
-.plan-width{
+.plan-width {
     width: 33%;
-    text-align:left;
-    margin:2%;
-    padding-left:25px;
-    padding-right:25px;
-    padding-top:50px;
-    padding-bottom:50px;
+    text-align: left;
+    margin: 2%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: 20px;
 }
 
-.plan-width img{
-    width:50px;
-    height:50px;
+.plan-width img {
+    width: 50px;
+    height: 50px;
 }
 
 
-#food-color{
+#food-color {
     background-color: bisque;
 }
 
-#medical-color{
-    background-color:aquamarine;
+#medical-color {
+    background-color: aquamarine;
 }
 
-#shelter-color{
-    background-color:rgb(236, 170, 170);
+#shelter-color {
+    background-color: rgb(236, 170, 170);
 }
 
-#first-gallery img{
+#first-gallery img {
     width: 400px;
-    height:500px;
-    margin:1%;
+    height: 500px;
+    margin: 1%;
 }
 
-#second-gallery img{
-    width:600px;
-    height:450px;
-    margin-left:2%;
-    margin-right:2%;
+#second-gallery img {
+    width: 550px;
+    height: 450px;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
-.link-button{
-    
-    text-decoration: none;
-    color:white;
-    font-size: 20px;
-    background-color: tomato;
-    padding: 15px 25px;
-    border-radius:5px;
+.btn {
+    padding: 16.5px 25px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
 }
 
+.subscribe {
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    position: absolute;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-.update{
+.update {
     margin: 0 auto;
     width: 50%;
     padding: 0;
     position: relative;
 }
 
-.update input{
+.update input {
     border: none;
     outline: none;
     padding: 15px 25px;
@@ -147,50 +149,32 @@ h3{
     border-bottom-right-radius: 0;
 }
 
-.btn{
-    padding: 16.5px 25px;
-    color: white;
-    background-color: orangered;
-    border:none;
-    border-radius: 5px;
-    
-}
-
-.subscribe{
-    border: none;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    position: absolute;
-}
-
-#box{
+#box {
     margin-top: 50px;
-    margin-left:90px;
-    margin-right:90px;
+    margin-left: 90px;
+    margin-right: 90px;
     min-height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:antiquewhite;
+    background-color: antiquewhite;
     border-radius: 5px;
 }
 
-
-
-footer{
-    background-color:black;
-    text-align:center;
+footer {
+    background-color: black;
+    text-align: center;
     padding-top: 20px;
     padding-bottom: 25px;
     margin: 0px;
 }
 
-footer h3{
+footer h3 {
     font-family: "Lobster", cursive;
-    color:tomato;
+    color: rgb(239, 113, 90);
 }
 
-footer p{
-    font-size:15px;
-    color:white;
+footer p {
+    font-size: 15px;
+    color: white;
 }
