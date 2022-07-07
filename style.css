@@ -101,17 +101,25 @@ h3 {
     background-color: rgb(236, 170, 170);
 }
 
-#first-gallery img {
-    width: 400px;
-    height: 500px;
-    margin: 1%;
+.first-gallery {
+    width: 33%;
 }
 
-#second-gallery img {
-    width: 550px;
+.first-gallery img {
+    width: 400px;
+    height: 500px;
+    margin: 2%;
+}
+
+.second-gallery {
+    width: 50%;
+}
+
+.second-gallery img {
+    width: 600px;
     height: 450px;
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .btn {
