@@ -3,23 +3,6 @@ body{
     margin: 0;
 }
 
-#alignment{
-    background-image: url(images/cover.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    text-align :center;
-    color:black;
-    padding:16%;
-}
-
-
-
-.flexible{
-    display: flex;
-}
-
-
 h1{
     font-size:55px;
 }
@@ -32,40 +15,51 @@ h3{
     font-size:30px;
 }
 
-.link-button{
-    
-    text-decoration: none;
-    color:white;
-    font-size: 20px;
-    background-color: tomato;
-    padding: 15px 25px;
-    border-radius:5px;
+#alignment{
+    background-image: url(images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    text-align :center;
+    color:black;
+    padding:16%;
+    margin-bottom:100px;
+}
+
+.flexible{
+    display: flex;
 }
 
 .center{
     text-align: center;
     margin-left:40px;
     margin-right:40px;
+    margin-bottom:200px;
 }
 
 .taka-align{
-    margin:30px;
+    margin:40px;
     width:20%;
-    background-color:rgb(245, 234, 234);
+    background-color:rgb(252, 248, 248);
+    color:gray;
 }
 
 #taka-color{
     width:20%;
-    margin:30px;
-    background-color: rgb(251, 190, 179);
+    margin:40px;
+    background-color: rgb(241, 212, 206);
+    color:gray;
     border: 3px solid tomato;
 }
 
 #bottom-line{
-    padding: 15px 0px;
+    padding: 25px 0px;
+    margin-left:200px;
+    margin-right:200px;
+    margin-bottom:40px;
     border: none;
     outline: none;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid rgb(202, 192, 192);
 }
 
 .plan-width{
@@ -79,6 +73,12 @@ h3{
     margin: 20px;
 }
 
+.plan-width img{
+    width:50px;
+    height:50px;
+}
+
+
 #food-color{
     background-color: bisque;
 }
@@ -89,13 +89,6 @@ h3{
 
 #shelter-color{
     background-color:rgb(236, 170, 170);
-}
-
-
-.plan-width img{
-    width:50px;
-    height:50px;
-
 }
 
 #first-gallery img{
@@ -110,6 +103,29 @@ h3{
     margin-left:2%;
     margin-right:2%;
 }
+
+.link-button{
+    
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    background-color: tomato;
+    padding: 15px 25px;
+    border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .update{
     margin: 0 auto;
